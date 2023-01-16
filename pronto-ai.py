@@ -22,5 +22,9 @@ def wasItRufus(git_dir):
     print("blame Rufus: False")
   
 
-url = '/Users/lawrencezhang/Desktop/pronto.ai-assessment'
-print(wasItRufus(url))
+#url = '/Users/lawrencezhang/Desktop/pronto.ai-assessment'
+#print(wasItRufus(url))
+
+if __name__ == "__main__":
+  git_url = input()
+  wasItRufus(git_url)
