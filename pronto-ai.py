@@ -39,20 +39,9 @@ def wasItRufus(git_dir):
     print("blame Rufus: False")
   
 
-url = '/Users/lawrencezhang/Desktop/pronto.ai-assessment'
-print(wasItRufus(url))
+#url = '/Users/lawrencezhang/Desktop/self-learning-path'
+#wasItRufus(url)
 
-#start_date = date + datetime.timedelta(-today.weekday(), weeks=-1)
-#end_date = date + datetime.timedelta(-today.weekday() - 1)
-#print(start_date,end_date)
-# day = datetime.datetime.strptime('20230115', "%Y%m%d").date()
-# start = day - datetime.timedelta(days=day.weekday())
-# end = start + datetime.timedelta(days=6)
-# print(day)
-# print(start)
-# print(end)
-# print(start<end)
-
-# if __name__ == "__main__":
-#   git_url = input()
-#   wasItRufus(git_url)
+if __name__ == "__main__":
+  git_url = input()
+  wasItRufus(git_url)
