@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from git import Repo
 import datetime
 
@@ -37,11 +38,8 @@ def wasItRufus(git_dir):
     print("blame Rufus: True")
   else:
     print("blame Rufus: False")
-  
-
-#url = '/Users/lawrencezhang/Desktop/self-learning-path'
-#wasItRufus(url)
 
 if __name__ == "__main__":
+  # get the git repository 
   git_url = input()
   wasItRufus(git_url)
